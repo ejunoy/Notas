@@ -229,6 +229,6 @@ $\blacksquare$
 > 
 
 *Demostración.* 
-1. Supongamos que ${} X {}$ es compacto. Sea ${} (x_{\lambda})_{\lambda \in \Lambda} {}$ es una ultrared. Entonces su [[Conceptos/Semestre 6/Filtro\|filtro]] asociado es un [[Conceptos/Semestre 6/Ultrafiltro\|ultrafiltro]] y como ${} X {}$ es compacto entonces converge. Luego ${} (x_{\lambda})_{\lambda \in \Lambda} {}$ converge.
+1. Supongamos que ${} X {}$ es compacto. Sea ${} (x_{\lambda})_{\lambda \in \Lambda} {}$ es una ultrared. Entonces su [[Conceptos/Semestre 6/Filtro\|filtro]] asociado es un [[Conceptos/Semestre 6/Ultrafiltro\|ultrafiltro]] y como ${} X {}$ es compacto, entonces converge. Luego ${} (x_{\lambda})_{\lambda \in \Lambda} {}$ converge.
 2. Supongamos que toda ultrared converge. Sea ${} \mathcal{F} {}$ un [[Conceptos/Semestre 6/Ultrafiltro\|ultrafiltro]]. Entonces la [[Conceptos/Semestre 6/Ultrared\|ultrared]] asociada a ${} \mathcal{F} {}$ converge y ${} \mathcal{F} {}$ también lo hace. Entonces ${} X {}$ es compacto.    
-$\blacksquare$
+$\blacksquare$ 
