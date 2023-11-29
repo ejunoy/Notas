@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["MOC","gardenEntry"]}
+{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"]}
 ---
 
 Estas son mis notas.
