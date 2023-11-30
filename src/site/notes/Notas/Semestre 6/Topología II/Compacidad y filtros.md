@@ -27,7 +27,7 @@ ${}X{}$ es compacto si y solo si toda ultrared en ${}X{}$ converge.
 # Redes y filtros 
 
 > [!definition|*]
-> Sea ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$ una red en un conjunto ${}X{}$. Sea ${}\mathcal{C}= \left\{T_{\lambda}: \lambda \in \mathcal{A} \right\}{}$, donde ${}T_{\lambda}= \left\{x_{\mu}: \mu\geq \lambda \right\}{}$. Entonces ${}\mathcal{C}{}$ es base para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$ llamado el [[Conceptos/Semestre 6/Filtro\|filtro]] generado por la [[Conceptos/Semestre 6/Red\|Red]] ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$.
+> Sea ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$ una red en un conjunto ${}X{}$. Sea ${}\mathcal{C}= \left\{T_{\lambda}: \lambda \in \mathcal{A} \right\}{}$, donde ${}T_{\lambda}= \left\{x_{\mu}: \mu\geq \lambda \right\}{}$. Entonces ${}\mathcal{C}{}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$ llamado el [[Conceptos/Semestre 6/Filtro\|filtro]] generado por la [[Conceptos/Semestre 6/Red\|Red]] ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$.
 
 > [!theorem|*]
 > Sea ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$ una red en un [[Conceptos/Semestre 6/Espacio topológico\|espacio topológico]] ${}X{}$ y sea ${}\mathcal{G}{}$ el [[Conceptos/Semestre 6/Filtro generado por una red\|filtro generado por la red]]. Entonces ${}(x_{\lambda})_{\lambda \in \mathcal{A}}{}$ converge a ${}x{}$ si y solo si ${}\mathcal{G}{}$ converge a ${}x{}$.
