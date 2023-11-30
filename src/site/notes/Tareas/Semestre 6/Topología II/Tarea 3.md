@@ -123,7 +123,7 @@ $\blacksquare$
 	Entonces ${} \mathcal{F} {}$ converge a un único punto.
 2. Supongamos que todo [[Conceptos/Semestre 6/Filtro\|filtro]] converge a lo más a un punto en ${} X {}$. Por contradicción supongamos que ${} X {}$ no es Hausdorff. Entonces existen ${} x,y \in X {}$ con ${} x \neq y {}$ tales que para cada ${} U \in \mathcal{N}(x) {}$ y ${} V \in \mathcal{N}(y) {}$ se tiene que ${} U \cap V \neq \emptyset {}$. Considera
 	$${} \mathcal{B} = \left\{U \cap  V: U \in  \mathcal{N} (x) , V \in  \mathcal{N} (y)   \right\}.   {}$$
-	Observa que ${} \mathcal{B} {}$ es cerrado bajo intersecciones. Entonces es base para un [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F} {}$. Nota que ${} \mathcal{N}(x),\mathcal{N}(y)\subseteq \mathcal{B} \subseteq \mathcal{F} {}$, entonces ${} \mathcal{F} {}$ converge a ${} x {}$ y a ${} y {}$, lo cual es imposible. Entonces ${} X {}$ es Hausdorff.    
+	Observa que ${} \mathcal{B} {}$ es cerrado bajo intersecciones. Entonces es [[Conceptos/Semestre 6/Base de filtro\|base]] para un [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F} {}$. Nota que ${} \mathcal{N}(x),\mathcal{N}(y)\subseteq \mathcal{B} \subseteq \mathcal{F} {}$, entonces ${} \mathcal{F} {}$ converge a ${} x {}$ y a ${} y {}$, lo cual es imposible. Entonces ${} X {}$ es Hausdorff.    
 $\blacksquare$ 
 
 > [!exercise|3]
