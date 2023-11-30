@@ -28,15 +28,15 @@ Si $(X,\tau)$ es un [[Conceptos/Semestre 6/Espacio topológico\|espacio topológ
 
 > [!definition|*] Base de [[Conceptos/Semestre 6/Filtro\|filtro]]
 > 
-> Sea ${} X {}$ un conjunto y ${} \mathcal{F} {}$ un [[Conceptos/Semestre 6/Filtro\|filtro]]. Diremos que ${} \mathcal{C}\subseteq \mathcal{F} {}$ es una **base de [[Conceptos/Semestre 6/Filtro\|filtro]]** para ${} \mathcal{F} {}$ si ${} \forall F \in \mathcal{F} {}$ ${} \exists U \in \mathcal{C} {}$ tal que ${} U\subseteq F {}$.
+> Sea ${} X {}$ un conjunto y ${} \mathcal{F} {}$ un [[Conceptos/Semestre 6/Filtro\|filtro]]. Diremos que ${} \mathcal{C}\subseteq \mathcal{F} {}$ es una **[[Conceptos/Semestre 6/Base de filtro\|base]] de [[Conceptos/Semestre 6/Filtro\|filtro]]** para ${} \mathcal{F} {}$ si ${} \forall F \in \mathcal{F} {}$ ${} \exists U \in \mathcal{C} {}$ tal que ${} U\subseteq F {}$.
 > 
 { #39c972}
 
 
 ## Ejemplo 
-${} \mathcal{C}= \left\{ A \right\} {}$ es base para el [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F}_{A} {}$.
+${} \mathcal{C}= \left\{ A \right\} {}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para el [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F}_{A} {}$.
 
-**Observación.** Si ${} \mathcal{C} {}$ es base de [[Conceptos/Semestre 6/Filtro\|filtro]], entonces ${} \mathcal{C} {}$ cumple:
+**Observación.** Si ${} \mathcal{C} {}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] de [[Conceptos/Semestre 6/Filtro\|filtro]], entonces ${} \mathcal{C} {}$ cumple:
 1. ${} \forall C \in \mathcal{C}, C \neq \emptyset{}$.
 2. Si ${} C_{1} \land C_{2} \in \mathcal{C} {}$ entonces existe ${} C_{3} \in \mathcal{C} {}$ tal que ${} C_{3}\subseteq C_{1} \cap C_{2} {}$.
 
@@ -44,7 +44,7 @@ ${} \mathcal{C}= \left\{ A \right\} {}$ es base para el [[Conceptos/Semestre 6/F
 > Sea ${} \mathcal{C}\subseteq \mathcal{P}(X) {}$. Si ${} \mathcal{C} {}$ cumple:
 > 1. ${} \forall C \in \mathcal{C} {}$, ${} C \neq \emptyset {}$.
 > 2. Si ${} C_{1} \land C_{2} \in \mathcal{C} {}$ entonces ${} \exists C_{3} \in \mathcal{C} {}$ tal que ${} C_{3}\subseteq C_{1} \cap C_{2} {}$.
-> Entnoces existe un único [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F}_{\mathcal{C}} \subseteq \mathcal{P}(X) {}$ tal que ${} \mathcal{C} {}$ es base para ${} \mathcal{F}_{\mathcal{C}} {}$.
+> Entnoces existe un único [[Conceptos/Semestre 6/Filtro\|filtro]] ${} \mathcal{F}_{\mathcal{C}} \subseteq \mathcal{P}(X) {}$ tal que ${} \mathcal{C} {}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para ${} \mathcal{F}_{\mathcal{C}} {}$.
 > 
 
 *Demostración.* 
@@ -52,11 +52,11 @@ Sea ${} \mathcal{F}_{\mathcal{C}}= \left\{F \subseteq X: \exists C \in \mathcal{
 1. Sea ${} F \in \mathcal{F}_{\mathcal{C}} {}$ entonces existe ${} C \in \mathcal{C} {}$ tal que ${} C\subseteq F {}$ y, como ${} C \neq \emptyset {}$ entonces $F \neq \emptyset$.
 2. Sean $F_{1},F_{2} \in \mathcal{F}_{\mathcal{C}}$. Entonces existen ${} C_{1},C_{2} \in \mathcal{C}{}$ tales que ${} C_{1}\subseteq F_{1} {}$ y ${} C_{2} \subseteq F_{2} {}$. De modo que ${} C_{1}\cap C_{2} \subseteq F_{1} \cap F_{2} {}$ y, por hipótesis existe ${} C_{3} {}$ tal que ${} C_{3} \subseteq C_{1} \cap C_{2} {}$. Por lo tanto ${} F_{1} \cap F_{2} \in \mathcal{F}_{\mathcal{C}} {}$.
 3. Sea ${} F \in \mathcal{F}_{\mathcal{C}} {}$ y ${} G\subseteq X {}$ tal que ${} F\subseteq G {}$. Entonces existe ${} C \in \mathcal{C} {}$ tal que ${} C \subseteq F \subseteq G {}$ y, por lo tanto, ${} G \in \mathcal{F}_{\mathcal{C}} {}$.
-Si ${} \mathcal{G} {}$ es otro [[Conceptos/Semestre 6/Filtro\|filtro]] para el cual ${} \mathcal{C} {}$ es base, entonces para cada ${} G \in \mathcal{G} {}$ se tiene que existe ${} C \in \mathcal{C} {}$ tal que ${} C \subseteq G {}$, de tal forma que ${} G \in \mathcal{F}_{\mathcal{C}} {}$. Si ${} G \in \mathcal{F}_{\mathcal{C}} {}$ entonces existe ${} C \in \mathcal{C} {}$ tal que ${} C \subseteq G {}$ y, como ${} \mathcal{C}\subseteq \mathcal{G} {}$ entonces ${} G \in \mathcal{G} {}$. Por lo tanto ${} \mathcal{F}_{\mathcal{C}}=\mathcal{G} {}$.
+Si ${} \mathcal{G} {}$ es otro [[Conceptos/Semestre 6/Filtro\|filtro]] para el cual ${} \mathcal{C} {}$ es [[Conceptos/Semestre 6/Base de filtro\|base]], entonces para cada ${} G \in \mathcal{G} {}$ se tiene que existe ${} C \in \mathcal{C} {}$ tal que ${} C \subseteq G {}$, de tal forma que ${} G \in \mathcal{F}_{\mathcal{C}} {}$. Si ${} G \in \mathcal{F}_{\mathcal{C}} {}$ entonces existe ${} C \in \mathcal{C} {}$ tal que ${} C \subseteq G {}$ y, como ${} \mathcal{C}\subseteq \mathcal{G} {}$ entonces ${} G \in \mathcal{G} {}$. Por lo tanto ${} \mathcal{F}_{\mathcal{C}}=\mathcal{G} {}$.
 $\blacksquare$
 
 ## Ejemplo
-Sea ${} \mathcal{C}= \left\{(a,\infty): a \in \mathbb{R} \right\} {}$. ${} \mathcal{C} {}$ es base para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${} \mathcal{F}_{\mathcal{C}} {}$ en ${} \mathbb{R} {}$.
+Sea ${} \mathcal{C}= \left\{(a,\infty): a \in \mathbb{R} \right\} {}$. ${} \mathcal{C} {}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${} \mathcal{F}_{\mathcal{C}} {}$ en ${} \mathbb{R} {}$.
 
 
 <div class="transclusion internal-embed is-loaded"><a class="markdown-embed-link" href="/conceptos/semestre-6/filtro-fino-y-grueso/" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a><div class="markdown-embed">
@@ -160,7 +160,7 @@ ${}\therefore{}$ los únicos puntos de acumulación de ${}\mathcal{F}{}$ son los
 
 #Enconstrucción
 #Tema/Topología  #Tipo/Definición  
-> [!definition|*] Convergencia y puntos de acumulación de una base para [[Conceptos/Semestre 6/Filtro\|filtro]]
+> [!definition|*] Convergencia y puntos de acumulación de una [[Conceptos/Semestre 6/Base de filtro\|base]] para [[Conceptos/Semestre 6/Filtro\|filtro]]
 > Sea ${}\mathcal{C}{}$ una [[Conceptos/Semestre 6/Base de filtro\|base de filtro]]. 
 > 1. Diremos que ${}\mathcal{C}{}$ **converge** a ${}x{}$ si para cada ${}U \in \mathcal{N}(x){}$ existe ${}C \in \mathcal{C}{}$ tal que ${}C \subseteq U{}$ ${}\iff{}$ ${}\mathcal{F}_{\mathcal{C}} \to x{}$.
 > 2. Diremos que ${}\mathcal{C}{}$ **se acumula** en ${}x{}$ si para cada ${}C \in \mathcal{C}{}$ y para cada ${}U \in \mathcal{N}(x){}$ se tiene que ${}C \cap U \neq \emptyset{}$ ${}\iff{}$ ${}\mathcal{F}_{\mathcal{C}}{}$ se acumula en ${}x{}$.
@@ -179,7 +179,7 @@ Sea ${}\mathcal{C}= \left\{(0,\varepsilon): \varepsilon>0 \right\}{}$ y ${}\math
 
 *Demostración.* 
 - ${}\rightarrow{}$ Sea ${}\mathcal{C}= \left\{ U \cap F: F \in \mathcal{F} \land U \in \mathcal{N}(x)\right\}{}$. Como ${}x{}$ es un punto de acumulación de ${}\mathcal{F}{}$ entonces ${}U \cap F \neq \emptyset{}$ para cada ${}U \in \mathcal{N}(x){}$ y ${}F \in \mathcal{F}{}$. Además, si ${}U\cap F, V \cap F \in \mathcal{C}{}$ entonces ${}(U \cap F)\cap (V \cap F)= (U \cap V) \cap F \in \mathcal{C}{}$. 
-	${}\therefore{}$ ${}\mathcal{C}{}$ es base para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$.
+	${}\therefore{}$ ${}\mathcal{C}{}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$.
 	Sea ${}\mathcal{G} = \mathcal{F}_{\mathcal{C}}{}$. Para cada ${}U \in \mathcal{N}(x){}$ y para cada ${}F \in \mathcal{F}{}$ se tiene que ${}U \cap F \subseteq U,F{}$, entonces ${}U,F \in \mathcal{G}{}$. De modo que ${}\mathcal{N}(x), \mathcal{F} \subseteq \mathcal{G}{}$.
 - ${}\leftarrow{}$ Supongamos que existe un [[Conceptos/Semestre 6/Filtro\|filtro]] ${}\mathcal{G}{}$ que [[Conceptos/Semestre 6/Convergencia de filtros\|converge]] a ${}x{}$ tal que ${}\mathcal{F} \subseteq \mathcal{G}{}$. Veamos que ${}x{}$ es un punto de acumulación de ${}\mathcal{F}_{\mathcal{C}}$. 
 	Sea ${}F \in \mathcal{F}{}$ y ${}U \in \mathcal{N}(x){}$. Como ${}F \in \mathcal{F} \subseteq \mathcal{G} {}$ y ${}U \in \mathcal{N}(x)\subseteq \mathcal{G}{}$, de modo que ${}F \cap U \in \mathcal{G}{}$ y, por lo tanto, ${}F \cap U \neq \emptyset{}$.
@@ -199,7 +199,7 @@ $\blacksquare$
 > Sea ${}(X,\tau){}$ un [[Conceptos/Semestre 6/Espacio topológico\|espacio topológico]]. ${}A\subseteq X{}$. Entonces un punto ${}x{}$ está en ${}\overline{ A}{}$ si y solo si existe un [[Conceptos/Semestre 6/Filtro\|filtro]] ${}\mathcal{F}{}$ tal que ${}A \in \mathcal{F}{}$ y ${}\mathcal{F} \to x{}$.
 
 *Demostración.* 
-- ${}\rightarrow{}$ Sea ${}x \in \overline{A}{}$. Sea ${}\mathcal{C}= \left\{ U \cap A : U \in \mathcal{N}(x) \right\}{}$. Entonces ${}\mathcal{C}{}$ es base para un [[Conceptos/Semestre 6/Filtro\|filtro]] ${}\mathcal{F}= \mathcal{F}_{\mathcal{C}}{}$. Además, se cumple que ${}A \in \mathcal{F}{}$ y ${}\mathcal{N}(x)\subseteq \mathcal{F}{}$.
+- ${}\rightarrow{}$ Sea ${}x \in \overline{A}{}$. Sea ${}\mathcal{C}= \left\{ U \cap A : U \in \mathcal{N}(x) \right\}{}$. Entonces ${}\mathcal{C}{}$ es [[Conceptos/Semestre 6/Base de filtro\|base]] para un [[Conceptos/Semestre 6/Filtro\|filtro]] ${}\mathcal{F}= \mathcal{F}_{\mathcal{C}}{}$. Además, se cumple que ${}A \in \mathcal{F}{}$ y ${}\mathcal{N}(x)\subseteq \mathcal{F}{}$.
 - ${}\leftarrow{}$ Supongamos que ${}\mathcal{F}{}$ es un [[Conceptos/Semestre 6/Filtro\|filtro]] tal que ${}A \in \mathcal{F}{}$ y ${}\mathcal{N}(x) \subseteq \mathcal{F}{}$. Entonces para cada ${}U \in \mathcal{N}(x){}$ se tiene que ${}U \cap A \in \mathcal{F}{}$, de modo que ${}U \cap A \neq \emptyset{}$ y ${}x \in \overline{A}{}$.
 $\blacksquare$
 
@@ -224,7 +224,7 @@ $\blacksquare$
 #Enconstrucción
 #Tema/Topología  #Tipo/Definición  
 > [!definition|*] [[Conceptos/Semestre 6/Filtro\|Filtro]] bajo una función
-> Sea ${}\mathcal{F}{}$ un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$ y ${}f: X \to Y{}$ una función. Definimos ${}f(\mathcal{F}){}$ como el [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}Y{}$ generado por la base ${}\mathcal{C}= \left\{ f(F): F \in \mathcal{F} \right\}{}$.
+> Sea ${}\mathcal{F}{}$ un [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}X{}$ y ${}f: X \to Y{}$ una función. Definimos ${}f(\mathcal{F}){}$ como el [[Conceptos/Semestre 6/Filtro\|filtro]] en ${}Y{}$ generado por la [[Conceptos/Semestre 6/Base de filtro\|base]] ${}\mathcal{C}= \left\{ f(F): F \in \mathcal{F} \right\}{}$.
 
 </div></div>
 
